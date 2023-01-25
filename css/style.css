@@ -1,0 +1,138 @@
+#container {
+  width: 1500px;
+  height: 720px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.left {
+  width: 576px;
+  height: 576px;
+  margin-left: 166px;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+.right {
+  width: 984px;
+}
+.header-logo {
+  width: 272px;
+  height: 58px;
+  margin-top: 106px;
+  margin-left: 164px;
+}
+.company-logo {
+  width: 576px;
+  height: 576px;
+  border-radius: 50%;
+  border: 20px solid #ffffff;
+  box-shadow: 0px 4px 31px #0000000a;
+}
+
+.discription {
+  margin-left: 164px;
+  margin-top: 20px;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 40px;
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
+}
+
+.expert {
+  text-align: left;
+  font: normal normal 900 40px/53px Roboto;
+  letter-spacing: 0px;
+  color: #c8242f;
+  display: inline;
+}
+
+.discription2 {
+  /* margin-left: 164px;
+    margin-top: 31px; */
+  margin: 31px 0px 0px 164px;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 25px;
+  color: #3e3e3e;
+}
+.uname {
+  margin-left: 164px;
+  margin-top: 20px;
+  /* background: #ffffff 0% 0% no-repeat padding-box; */
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #adadad;
+  opacity: 1;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 224px;
+}
+.pass {
+  margin-left: 164px;
+  margin-top: 20px;
+  /* background: #ffffff 0% 0% no-repeat padding-box; */
+  border: 1px solid #adadad;
+  border-radius: 5px;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #adadad;
+  opacity: 1;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 224px;
+}
+.loginbtn {
+  display: inline;
+  margin-left: 164px;
+  margin-right: 150px;
+  margin-top: 30px;
+  background: #c8242f 0% 0% no-repeat padding-box;
+  border-radius: 23px;
+  opacity: 1;
+  font: normal normal medium 18px/24px Roboto;
+  border-color: #ffffff;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 45px;
+  padding-top: 9px;
+  padding-right: 45px;
+  padding-bottom: 9px;
+}
+
+.forgetpassword {
+  display: inline;
+  text-align: left; 
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #adadad;
+  
+}
+
+.register {
+  margin-left: 164px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #adadad;
+  opacity: 1;
+}
+.registerlink {
+  text-align: left;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #c8242f;
+  opacity: 1;
+}
