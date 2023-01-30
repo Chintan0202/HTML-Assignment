@@ -1,28 +1,28 @@
-#container {
-  width: 1500px;
-  height: 720px;
+.cont {
+  max-width: 1500px;
+  max-height: 720px;
   display: flex;
   margin: auto;
   justify-content: space-between;
   align-items: center;
   background-color: #fafafa;
 }
-
 .left {
-  width: 576px;
-  height: 576px;
+  width: 650px;
+  height: 616px;
   margin-left: 166px;
   margin-top: 72px;
   margin-bottom: 72px;
 }
 .right {
-  width: 984px;
+  width: auto;
+  margin-left: 164px;
 }
 .header-logo {
   width: 272px;
   height: 58px;
   margin-top: 106px;
-  margin-left: 164px;
+  /* margin-left: 164px; */
 }
 .company-logo {
   width: 576px;
@@ -33,7 +33,7 @@
 }
 
 .discription {
-  margin-left: 164px;
+  /* margin-left: 164px; */
   margin-top: 20px;
   text-align: left;
   font-family: Roboto;
@@ -52,9 +52,8 @@
 }
 
 .discription2 {
-  /* margin-left: 164px;
-    margin-top: 31px; */
-  margin: 31px 0px 0px 164px;
+  margin-top: 31px;
+  /* margin: 31px 0px 0px 164px; */
   text-align: left;
   font-family: Roboto;
   font-weight: Regular;
@@ -62,7 +61,7 @@
   color: #3e3e3e;
 }
 .uname {
-  margin-left: 164px;
+  /* margin-left: 164px; */
   margin-top: 20px;
   /* background: #ffffff 0% 0% no-repeat padding-box; */
   border: 1px solid #adadad;
@@ -77,7 +76,7 @@
   padding-right: 224px;
 }
 .pass {
-  margin-left: 164px;
+  /* margin-left: 164px; */
   margin-top: 20px;
   /* background: #ffffff 0% 0% no-repeat padding-box; */
   border: 1px solid #adadad;
@@ -93,7 +92,7 @@
 }
 .loginbtn {
   display: inline;
-  margin-left: 164px;
+  /* margin-left: 164px; */
   margin-right: 150px;
   margin-top: 30px;
   background: #c8242f 0% 0% no-repeat padding-box;
@@ -120,7 +119,7 @@
 }
 
 .register {
-  margin-left: 164px;
+  /* margin-left: 164px; */
   margin-top: 20px;
   margin-bottom: 5px;
   text-align: left;
@@ -136,4 +135,48 @@
   color: #c8242f;
   opacity: 1;
 }
-/* ----------------------------------------------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:800px) {
+  .cont{
+    flex-direction: column;
+  }
+}
+@media screen and (min-width:360px) and (max-width:1024px){
+  
+  .left {
+      margin-left: 100px;
+    }
+  .right{
+    margin-left: 50px;
+  }
+     .company-logo {
+       margin-top: 100px;
+       width: 400px;
+       height: 400px;
+     }
+    .uname {
+      padding-right: 180px;
+    }
+  
+    .pass {
+      padding-right: 180px;
+    }
+  .header-logo{
+    margin-top: 120px;
+  }
+  .discription{
+    margin-bottom: 15px;
+  }
+  .discription2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .loginbtn{
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+}
+

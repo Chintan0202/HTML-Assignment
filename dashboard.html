@@ -23,18 +23,19 @@
   </head>
   <body>
     <div class="cont">
-      <img class="menu-logo" src="images\menu-bar.svg" />
+      <a id="menu-img"><img class="menu-logo" src="images\menu-bar.svg"/></a>
+      
       <img class="header-logo" src="images/header-logo.svg" />
       <img class="search-icon" src="images\search-icon.svg" />
       <input class="search" placeholder="Search" />
       <img class="notification-icon" src="images\notification-icon.svg" />
       <img class="profile" src="images\profile.png" />
-      <p class="name">John Doe</p>
+      <span class="name">John Doe</span>
       <img class="downward" src="images\downward-arrow.svg" />
     </div>
 
     <div class="cont">
-      <aside class="sidebar">
+      <aside id="side-bar"class="sidebar-active">
         <ul>
           <li class="active-box">
             <img class="img-logo" src="images\dashboard-active.svg" />
@@ -65,7 +66,7 @@
           </li>
         </ul>
       </aside>
-      <div>
+      <div class="maindiv">
         <p class="dash-text">Dashboard</p>
         <div class="insight">
           <div class="productinfo">
@@ -99,11 +100,12 @@
           <div class="productinfo">
             <img class="info-img" src="images\money-bag.svg" />
             <div class="info-txt">
-              <h2>33,5342</h2>
+              <h2>335342</h2>
               <p>Total Sales</p>
             </div>
           </div>
         </div>
+
         <div class="chart">
           <div class="datagraph">
             <div class="choise">
@@ -142,13 +144,13 @@
             </div>
               </div>
               </div>
-         <div class="data-table"> 
+         <div class="table-container"> 
              <div class="invoice-title">
-              <h2>Invoice</h2>
-          <p>View all</p>
+              <p>Invoice</p>
+          <a href="">View All</a>
              </div>
-          
-          <table class="table">
+          <div style="overflow-x:auto;">
+          <table style="width: 100%;" class="table">
             <thead>
               <tr>
                 <th scope="col">INVOICE</th>
@@ -252,11 +254,20 @@
           </tr>
             </tbody>
         </table>
+        </div>
+        
         </div> 
           </div>
         </div>
 
       </div>
     </div>
+    <script>
+      
+        document.getElementById("menu-img").onclick = function() {
+          document.getElementById("side-bar").classList.toggle("display-none");
+        }
+        
+    </script>
   </body>
 </html>
