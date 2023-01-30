@@ -1,6 +1,6 @@
 .cont {
- display: flex;
-} 
+  display: flex;
+}
 .menu-logo {
   margin-top: 34px;
   margin-left: 29px;
@@ -17,7 +17,7 @@
   font: normal normal normal 16px/21px Roboto;
   letter-spacing: 0px;
   color: #000000;
-  padding-right: 750px;
+  padding-right: 700px;
   border-width: 0px;
 }
 .search-icon {
@@ -110,11 +110,11 @@ ul {
   margin-top: 75px;
   margin-left: 77px;
 }
-.insight{
+.insight {
   margin-left: 50px;
   display: flex;
 }
-.productinfo{
+.productinfo {
   /* justify-content: space-between; */
   flex-direction: row;
   display: flex;
@@ -122,203 +122,346 @@ ul {
   background-color: #fff;
 }
 
-.info-txt{
+.info-txt {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
-    margin-top: 31px;
- 
+  margin-top: 31px;
 }
-.info-img{
+.info-img {
   width: 33px;
-    height:33px;
-    margin:41px 15px 41px 38px;
-   
+  height: 33px;
+  margin: 41px 15px 41px 38px;
 }
-.info-txt h2{
-
-width: 77px;
-height:33px
+.info-txt h2 {
+  width: 77px;
+  height: 33px;
 }
-.info-txt p{
- 
+.info-txt p {
   text-align: left;
-    font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
-    opacity: 1;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0px;
+  color: #3e3e3e;
+  opacity: 1;
 }
-.chart{
+.chart {
   display: flex;
 }
 
-.datagraph{
-   width: 802px;
-    height: 400px;
-    margin-top: 30px;
-    margin-left: 50px;
-      background-color: #ffffff;
+.datagraph {
+  width: 802px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 50px;
+  background-color: #ffffff;
 }
-.choise{
+.choise {
   display: flex;
   flex-direction: row;
 }
-.choise h3{
-  margin-left :20px;
+.choise h3 {
+  margin-left: 20px;
   margin-top: 29px;
   margin-bottom: 30px;
   width: 43px;
-    height: 29px;
+  height: 29px;
 }
-#w{
+#w {
   margin-left: 510px;
 }
-#m{
+#m {
   margin-left: 10px;
 }
-#y{
+#y {
   margin-left: 10px;
   margin-right: 29px;
-  color: #C8242F;
+  color: #c8242f;
 }
-.piechart{
+.piechart {
   margin-top: 30px;
   background-color: #ffffff;
 }
-.piechart h3{
+.piechart h3 {
   font: normal normal medium 22px/29px Roboto;
-    letter-spacing: 0px;
-    color: #3E3E3E;
+  letter-spacing: 0px;
+  color: #3e3e3e;
 }
-.piechart img{
+.piechart img {
   margin-top: 27px;
   margin-left: 89px;
-  
 }
-.country-data{
+.country-data {
   display: flex;
 }
-.country-vise{
-flex-direction: row;
+.country-vise {
+  flex-direction: row;
   display: flex;
 }
-.country-name{
+.country-name {
   margin-left: 9px;
 }
-.dot-red{
-    width:18px;
-    height: 18px;
-    background-color:#C8242F ;
-    border-radius: 50%;
-    margin-left: 49px;
-}
-.dot-green{
+.dot-red {
   width: 18px;
-    height: 18px;
-    background-color: #A2B86C;
-    border-radius: 50%;
-    margin-left: 26px;
+  height: 18px;
+  background-color: #c8242f;
+  border-radius: 50%;
+  margin-left: 49px;
+}
+.dot-green {
+  width: 18px;
+  height: 18px;
+  background-color: #a2b86c;
+  border-radius: 50%;
+  margin-left: 26px;
 }
 .dot-orange {
   width: 18px;
   height: 18px;
-  background-color: #F16C20;
+  background-color: #f16c20;
   border-radius: 50%;
-      margin-left: 49px;
+  margin-left: 49px;
 }
 .dot-yellow {
   width: 18px;
   height: 18px;
-  background-color: #EBC844;
+  background-color: #ebc844;
   border-radius: 50%;
-    margin-left: 26px;
+  margin-left: 26px;
 }
-.table-container{
+.table-container {
   margin-top: 2rem;
 }
-.table-container td{
+.table-container td {
   font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
+  letter-spacing: 0px;
   text-align: center;
-    opacity: 1;
+  opacity: 1;
 }
-.paid{
+.paid {
   font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
-    color: #3CDD5F;
-    background: #EBFFEF 0% 0% no-repeat padding-box;
-      border-radius: 5px;
+  letter-spacing: 0px;
+  color: #3cdd5f;
+  background: #ebffef 0% 0% no-repeat padding-box;
+  border-radius: 5px;
 }
-.failed{
+.failed {
   font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
-    color: #FF4545;
-    background: #FFF5F5 0% 0% no-repeat padding-box;
-      border-radius: 5px;
-      width: 60px;
-        height: 26px;
+  letter-spacing: 0px;
+  color: #ff4545;
+  background: #fff5f5 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  width: 60px;
+  height: 26px;
 }
-.pending{
+.pending {
   font: normal normal normal 15px/20px Roboto;
-    letter-spacing: 0px;
-    color: #BABABA;
+  letter-spacing: 0px;
+  color: #bababa;
 }
-.invoice-title{
+.invoice-title {
   display: flex;
 }
-.invoice-title p{
-  margin-left:auto ;
+.invoice-title p {
+  margin-left: auto;
 }
-table th{
+table th {
   text-align: center;
 }
-table td{
+table td {
   text-align: center;
 }
-.display-none{
+.display-none {
   /* display: none; */
   width: 242px;
-    height: 1279px;
-    padding-left: 0px;
-    display: flex;
+  height: 1279px;
+  padding-left: 0px;
+  display: flex;
 }
-@media screen and (max-width:700px){
-  .insight{
-    /* flex-wrap:wrap; */
-    flex-direction: column;
-    
-  }
-  .productinfo .info-txt{
+.search-icon-hide {
+  margin-left: 30px;
+  margin-top: 45px;
+  width: 18px;
+  height: 18px;
+}
+
+.search-hide {
+  padding-right: 130px;
+  display: inline;
+  margin-left: 14px;
+  margin-top: 30px;
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+
+  border-width: 0px;
+}
+.profile-hide {
+  margin-top: 30px;
+  margin-left: 45px;
+  width: 44px;
+  height: 44px;
+}
+
+.name-hide {
+  display: inline;
+  margin-top: 40px;
+  margin-left: 14px;
+  text-align: left;
+  font: normal normal normal 16px/21px Roboto;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+/* media queries for tablet ------------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 768px) {
+  .insight {
+    flex-wrap: wrap;
     margin-left: 0px;
   }
-  .datagraph{
-    width: 250px;
+  .chart {
+    flex-direction: column;
+  }
+  .datagraph img {
+    width: 600px;
+  }
+  #w {
+    margin-left: 250px;
+  }
+  .choise p {
+    margin-top: 35px;
+  }
+  .piechart {
+    width: 350px;
+    margin-left: 0px;
+  }
+
+  .piechart img {
+    width: 100%;
+    margin-left: 45px;
+  }
+  td {
+    padding: 0px;
+  }
+  .search {
+    padding-right: 180px;
+  }
+  .profile {
+    display: none;
+  }
+
+  .name {
+    display: none;
+  }
+  
+}
+/* media queries for mobile --------------------------------------------------------------------*/
+
+@media screen and (max-width: 400px) {
+  .insight {
+    /* flex-wrap:wrap; */
+    flex-direction: column;
+  }
+  .productinfo .info-txt {
+    margin-left: 0px;
+  }
+  .datagraph {
+    width: 300px;
     margin-left: 0px;
     height: 200px;
   }
-  .datagraph img{
+  .datagraph img {
     width: 100%;
   }
-  .productinfo{
-    background-color: #EBC844;
+  .productinfo {
+    background-color: #ffffff;
     width: 200px;
     margin-bottom: 20px;
   }
-  .chart{
+  .chart {
     flex-direction: column;
   }
-  .piechart{
+  .piechart {
     width: 250px;
-      margin-left: 0px;
-      
+    margin-left: 0px;
   }
-  .piechart img{
+  .piechart img {
     width: 100%;
+    margin-left: 45px;
   }
-  .search{
-    padding-right: 300px;
-  }
-  .data-table{
+
+  .data-table {
     margin-right: 50px;
+  }
+  #w {
+    margin-left: 65px;
+  }
+  .choise h3 {
+    margin-left: 5px;
+  }
+  .choise p {
+    margin-top: 35px;
+  }
+  .country-data {
+    width: 300px;
+  }
+  .insight {
+    width: 300px;
+    margin-left: 0px;
+  }
+  .search-icon-hide {
+    margin-left: 30px;
+    margin-top: 45px;
+    width: 18px;
+    height: 18px;
+  }
+  .search-hide {
+    padding-right: 130px;
+    display: inline;
+    margin-left: 14px;
+    margin-top: 30px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+
+    border-width: 0px;
+  }
+
+  .search {
+    display: none;
+  }
+  .search-icon {
+    display: none;
+  }
+  .profile-hide {
+    margin-top: 30px;
+    margin-left: 45px;
+    width: 44px;
+    height: 44px;
+  }
+  .name-hide {
+    display: inline;
+    margin-top: 40px;
+    margin-left: 14px;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  .profile {
+    display: none;
+  }
+  .name {
+    display: none;
+  }
+  .notification-icon {
+    margin-left: 25px;
+  }
+  .slider {
+    padding-left: 0px;
   }
 }

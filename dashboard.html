@@ -36,7 +36,15 @@
 
     <div class="cont">
       <aside id="side-bar"class="sidebar-active">
-        <ul>
+        <ul class="slider">
+          <li style="display: flex;">
+            <img class="search-icon-hide" src="images\search-icon.svg" />
+      <input class="search-hide" placeholder="Search" />
+      
+            </li>
+            <li style="display: flex;">
+            <img class="profile-hide" src="images\profile.png" />
+      <span class="name-hide">John Doe</span></li>
           <li class="active-box">
             <img class="img-logo" src="images\dashboard-active.svg" />
             <p class="active-text">Dashboard</p>
@@ -123,21 +131,21 @@
             <div class="country-data">
               <div class="contry-vise">
               <div class="country-vise">
-                <div class="dot-red"></div>
+                <div class="dot-red dots"></div>
                 <p class="country-name">United States of America</p>
               </div>
               <div class="country-vise">
-                <div class="dot-orange"></div>
+                <div class="dot-orange dots"></div>
                 <p class="country-name">Russia</p>
               </div>
             </div>
               <div class="contry-vise">
               <div class="country-vise">
-                <div class="dot-green"></div>
+                <div class="dot-green dots"></div>
                 <p class="country-name">Canada</p>
               </div>
               <div class="country-vise">
-                <div class="dot-yellow"></div>
+                <div class="dot-yellow dots"></div>
                 <p class="country-name">India</p>
               </div>
             </div>
@@ -266,6 +274,7 @@
       
         document.getElementById("menu-img").onclick = function() {
           document.getElementById("side-bar").classList.toggle("display-none");
+         
         }
         
     </script>
