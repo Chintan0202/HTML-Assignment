@@ -1,9 +1,9 @@
 .cont {
-  max-width: 1500px;
-  max-height: 720px;
+ 
   display: flex;
+  flex-direction: row;
   margin: auto;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   background-color: #fafafa;
 }
@@ -22,7 +22,7 @@
   width: 272px;
   height: 58px;
   margin-top: 106px;
-  /* margin-left: 164px; */
+
 }
 .company-logo {
   width: 576px;
@@ -33,7 +33,7 @@
 }
 
 .discription {
-  /* margin-left: 164px; */
+
   margin-top: 20px;
   text-align: left;
   font-family: Roboto;
@@ -53,7 +53,7 @@
 
 .discription2 {
   margin-top: 31px;
-  /* margin: 31px 0px 0px 164px; */
+
   text-align: left;
   font-family: Roboto;
   font-weight: Regular;
@@ -61,9 +61,9 @@
   color: #3e3e3e;
 }
 .uname {
-  /* margin-left: 164px; */
+
   margin-top: 20px;
-  /* background: #ffffff 0% 0% no-repeat padding-box; */
+
   border: 1px solid #adadad;
   border-radius: 5px;
   font: normal normal normal 15px/20px Roboto;
@@ -76,9 +76,9 @@
   padding-right: 224px;
 }
 .pass {
-  /* margin-left: 164px; */
+
   margin-top: 20px;
-  /* background: #ffffff 0% 0% no-repeat padding-box; */
+  
   border: 1px solid #adadad;
   border-radius: 5px;
   font: normal normal normal 15px/20px Roboto;
@@ -92,7 +92,7 @@
 }
 .loginbtn {
   display: inline;
-  /* margin-left: 164px; */
+  
   margin-right: 150px;
   margin-top: 30px;
   background: #c8242f 0% 0% no-repeat padding-box;
@@ -136,15 +136,7 @@
   opacity: 1;
 }
 
-
-/* ------------------------------------------------------------------------------------------------- */
-
-@media screen and (max-width:800px) {
-  .cont{
-    flex-direction: column;
-  }
-}
-@media screen and (min-width:360px) and (max-width:1024px){
+@media screen  and (max-width:1024px){
   
   .left {
       margin-left: 100px;
@@ -179,4 +171,6 @@
     margin-right: 40px;
   }
 }
-
+.mobile{
+  flex-direction: column;
+}

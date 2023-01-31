@@ -17,7 +17,7 @@
   font: normal normal normal 16px/21px Roboto;
   letter-spacing: 0px;
   color: #000000;
-  padding-right: 700px;
+  padding-right: 35%;
   border-width: 0px;
 }
 .search-icon {
@@ -146,6 +146,7 @@ ul {
 }
 .chart {
   display: flex;
+  width: 70%;
 }
 
 .datagraph {
@@ -237,6 +238,29 @@ ul {
   text-align: center;
   opacity: 1;
 }
+
+.table-header{
+  text-align: left;
+  font:normal normal normal 15px/20px Roboto;
+  letter-spacing: 1.5px;
+  color:#ADADAD;
+}
+.table-row{
+  text-align: left;
+  font-family: 'Roboto'!important;
+  letter-spacing: 0px;
+  color: #3E3E3E;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+th, td{
+  text-align: left;
+  padding: 10px;
+  border-bottom: #3E3E3E 1px solid;
+}
 .paid {
   font: normal normal normal 15px/20px Roboto;
   letter-spacing: 0px;
@@ -314,9 +338,10 @@ table td {
   opacity: 1;
 }
 
+
 /* media queries for tablet ------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1050px) {
   .insight {
     flex-wrap: wrap;
     margin-left: 0px;
@@ -335,7 +360,7 @@ table td {
   }
   .piechart {
     width: 350px;
-    margin-left: 0px;
+    margin-left: 100px;
   }
 
   .piechart img {
@@ -359,14 +384,22 @@ table td {
 }
 /* media queries for mobile --------------------------------------------------------------------*/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  
   .insight {
     /* flex-wrap:wrap; */
     flex-direction: column;
+    align-items: center;
   }
-  .productinfo .info-txt {
+  /* .productinfo .info-txt {
     margin-left: 0px;
+    margin-right: 5px;
+   
   }
+  .productinfo{
+    border: 2px black solid;
+   
+  } */
   .datagraph {
     width: 300px;
     margin-left: 0px;
@@ -384,7 +417,7 @@ table td {
     flex-direction: column;
   }
   .piechart {
-    width: 250px;
+    width: 300px;
     margin-left: 0px;
   }
   .piechart img {
@@ -464,4 +497,5 @@ table td {
   .slider {
     padding-left: 0px;
   }
+ 
 }
