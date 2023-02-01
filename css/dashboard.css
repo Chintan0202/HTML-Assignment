@@ -373,14 +373,14 @@ table td {
   .search {
     padding-right: 180px;
   }
-  .profile {
+  /* .profile {
     display: none;
   }
 
   .name {
     display: none;
   }
-  
+   */
 }
 /* media queries for mobile --------------------------------------------------------------------*/
 
@@ -496,6 +496,12 @@ table td {
   }
   .slider {
     padding-left: 0px;
+    height: 600px;
   }
+    .z-display {
+      z-index: 1;
+      position: absolute;
+      background-color: #ffffff;
+    }
  
 }

@@ -40,19 +40,17 @@
             <img class="search-icon-hide" src="images\search-icon.svg" />
       <input class="search-hide" placeholder="Search" />
       
-            </li>
+            <!-- </li>
             <li style="display: flex;">
             <img class="profile-hide" src="images\profile.png" />
-      <span class="name-hide">John Doe</span></li>
-          <li class="active-box">
-            <img class="img-logo" src="images\dashboard-active.svg" />
-            <p class="active-text">Dashboard</p>
+              <span class="name-hide">John Doe</span></li> -->
+              <li class="box">
+            <img class="img-logo" src="images/dashboard-default.svg" />
+            <p class="text">Dashboard</p>
           </li>
-
-          <li></li>
-          <li class="box">
-            <img class="img-logo" src="images\graph-default.svg" />
-            <p class="text">Analysis</p>
+          <li class="active-box">
+            <img class="img-logo" src="images/graph-active.svg" />
+            <p class="active-text">Analysis</p>
           </li>
           <li class="box">
             <img class="img-logo" src="images\inbox-default.svg" />
@@ -107,7 +105,8 @@
                                   <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
                                     <input type="password" class="form-control" placeholder="Password" aria-label="First name">
                                   </div>
-                                  <select class="form-select col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3 drop2" >
+                                  <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3">
+                                      <select class="form-select col drop3" >
                                       <option selected>Dropdown</option>
                                       <option value="1">One</option>
                                       <option value="2">Two</option>
@@ -252,7 +251,8 @@
      
     <script>
       document.getElementById("menu-img").onclick=function(){
-        document.getElementById("side-bar").classList.toggle("display-none")
+        document.getElementById("side-bar").classList.toggle("display-none");
+        document.getElementById("side-bar").classList.toggle("z-display");
       }
     </script>
 </body>
